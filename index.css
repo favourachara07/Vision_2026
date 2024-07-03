@@ -9,6 +9,7 @@ header, footer {
     color: black;
     text-align: center;
     padding: 1em 0;
+    margin: 1rem;
 }
 header{
     border-bottom: 1px solid rgba(0, 0, 0, 0.247);
@@ -91,6 +92,7 @@ ul .goal_class span{
 
 #slack-info img{
     max-width: 100%;
+    height: auto;
     display: block;
 }
 @media (max-width: 600px) {
