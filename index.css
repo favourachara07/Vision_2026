@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
 
 header, footer {
@@ -89,7 +91,10 @@ ul .goal_class span{
     text-decoration: none;
     color: #0073e6;
 }
-
+#links ul li a:hover {
+    transition: all .3s;
+    font-size: 1.1rem;
+}
 #slack-info img{
     max-width: 100%;
     height: auto;
