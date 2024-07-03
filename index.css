@@ -90,8 +90,10 @@ ul .goal_class span{
 }
 
 #slack-info img{
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
+    display: block;
+    margin: 1rem 0;
 }
 @media (max-width: 600px) {
     main {
